@@ -9,12 +9,12 @@
 | REQ-006 | Calcular el total | CU-004 | CLS-Venta, CLS-DetalleVenta | PRU-006 | Si |
 | REQ-007 | Descontar stock | CU-004 | CLS-Producto, CLS-DetalleVenta | PRU-007 | Si |
 | REQ-008 | Generar comprobante interno de venta | CU-004 | CLS-Comprobante, CLS-Venta | PRU-008 | Si |
-| REQ-009 | Generar reportes de ventas por rango de fechas | CU-005 | CLS-Reporte, CLS-Venta, CLS-Administrador | PRU-009 | Si |
-| REQ-010 | Generar reportes de inventario por prenda, talla y color | CU-007 | CLS-Reporte, CLS-Producto | PRU-010 | Si |
+| REQ-009 | Generar reportes de ventas por rango de fechas | CU-005 | CLS-Reporte, CLS-Venta, CLS-Cajero | PRU-009 | Si |
+| REQ-010 | Generar reportes de inventario por prenda, talla y color | CU-007 | CLS-Reporte, CLS-Producto, CLS-Encargado del almacén | PRU-010 | Si |
 | REQ-011 | Consultar historial de ventas por fecha | CU-008 | CLS-Venta, CLS-DetalleVenta, CLS-Comprobante, CLS-Cliente | PRU-011 | Si |
 | REQ-012 | Alerta cuando el stock de un producto, por talla y color, sea menor a 10 unidades | CU-004, CU-003, CU-009 | CLS-Producto | PRU-012 | Si |
 
 
 **Cobertura**
 
-- Trazabilidad requisito → caso de uso → clase: 13 de 13(100 %)
+- Trazabilidad requisito → caso de uso → clase: 12 de 12(100 %)
